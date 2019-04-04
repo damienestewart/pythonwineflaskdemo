@@ -1,0 +1,41 @@
+<html dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Chandler's Awesome Graphs</title>
+        <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body class="ms-Fabric" dir="ltr">
+        <div class="ms-Grid" dir="ltr">
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-md12 ms-textAlignCenter"><span class="ms-font-su ms-fontColor-themePrimary">Upload your file:</span></div>
+                <div class="ms-Grid-col ms-md12 ms-textAlignCenter" style="margin-top: 5em;">
+                    <form id="upload-form" method="post" enctype="multipart/form-data" action="/upload">
+                        <div class="ms-Grid" dir="ltr">
+                            <div class="ms-Grid-row">
+                                <div class="ms-Grid-col ms-md12">
+                                    <input id="fileupload" name="spreadsheet" type="file" />
+                                    
+                                    <label for="skill">
+                                        Skill: <input id="skill" value="focus" name="skill" type="text" placeholder="focus"/>
+                                    </label>
+                                    
+                                </div>
+                            </div>
+                            <div class="ms-Grid-row">
+                                <div class="ms-Grid-col ms-md12">
+                                    
+                                </div>
+                            </div>
+                            <div class="ms-Grid-row" style="margin-top: 2em;">
+                                <div class="ms-Grid-col ms-md12">
+                                    <input type="submit" value="submit" id="submit" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
